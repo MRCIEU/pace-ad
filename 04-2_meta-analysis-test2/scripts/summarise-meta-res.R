@@ -300,7 +300,7 @@ ggsave("results/meta-summary/hr-hits-forest.png", plot = outplot2)
 93 + 69 + 177
 
 ## Checking for replication from IOW previous study
-supp_tab1_file <- "/user/home/tb13101/projects/pace_ad/09_replication/data/pmid-26199674_supp-table-1.xlsx"
+supp_tab1_file <- "/pace_ad/09_replication/data/pmid-26199674_supp-table-1.xlsx"
 supp_tab1 <- readxl::read_xlsx(supp_tab1_file)
 all_cpgs <- supp_tab1$CpGs
 sig_cpgs <- supp_tab1[supp_tab1[["P-Value"]] < 0.05, "CpGs", drop=T]
@@ -314,7 +314,7 @@ hr_res3$fdr <- p.adjust(hr_res3$P, method = "fdr")
 
 
 ## Checking for FLG associations 
-genes_file <- "/user/home/tb13101/projects/pace_ad/08_candidate-genes/data/candidate-genes-cpgs.tsv"
+genes_file <- "/pace_ad/08_candidate-genes/data/candidate-genes-cpgs.tsv"
 gene_dat <- read_tsv(genes_file)
 
 ## just take first ranked genes as that's ~27k sites
