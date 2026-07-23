@@ -25,4 +25,4 @@ The main analysis in this project was the meta-analysis of eczema EWAS. Most of 
 
 ## Summary statistics 
 
-The summary statistics for the meta-analysis can be found here: https://doi.org/10.5281/zenodo.7629209. 
+The summary statistics for the meta-analysis can be found here: https://doi.org/10.5281/zenodo.21459028.
