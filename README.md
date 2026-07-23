@@ -1,6 +1,6 @@
 # PACE eczema analysis
 
-This repo details the analysis aiming to assess the association between childhood eczema and cord blood DNA methylation. The project is part of the Pregnancy and Childhood Epigenetics (PACE) consortium. It involves meta-analysing EWAS associations across several PACE cohorts and then running supplementary analyses to explore the results.
+This repo details the analysis aiming to assess the association between childhood eczema and cord blood DNA methylation. The project is part of the Pregnancy and Childhood Epigenetics (PACE) consortium. It involves meta-analysing EWAS associations across several PACE cohorts and then running supplementary analyses to explore the results. This repo is an update from Thomas Battrams's repo: https://github.com/thomasbattram/pace-ad
 
 To run the analyses, follow the pipeline laid out in the folders seen below. READMEs within each folder should help explain something about the analyses. 
 
