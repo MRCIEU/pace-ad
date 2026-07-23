@@ -21,7 +21,7 @@ summary_outfile <- args[3]
 
 plots_outfile <- "results/meta-summary/man-qqs-dd_hr.tiff"
 summary_outfile <- "results/meta-summary/comparison-summary.RData"
-qq_outfile <- "/user/home/epzjlm/scratch/repo/pace-ad/04-1_meta-analysis-test/results/meta-summary/meta-qqs.png"
+qq_outfile <- "/pace-ad/04-1_meta-analysis-test/results/meta-summary/meta-qqs.png"
 
 meta_files <- "results/metal-res/m1c-dd.txt results/metal-res/m1c-sr.txt /user/home/epzjlm/scratch/repo/pace-ad/04-2_meta-analysis-test2/results/metal-res/m1c-hr.txt"
 meta_files <- unlist(str_split(meta_files, " "))
@@ -31,7 +31,7 @@ m2_man_outfile <- "results/meta-summary/meta-sr-manhattan.png"
 m3_man_outfile <- "results/meta-summary/meta-hr-manhattan.png"
 
 n<-gsub("results/metal-res/","",meta_files)
-n<-gsub("/user/home/epzjlm/scratch/repo/pace-ad/04-2_meta-analysis-test2/","",n)
+n<-gsub("pace-ad/04-2_meta-analysis-test2/","",n)
 n<-gsub("m1c-dd","Doctors Diagnosis",n)
 n<-gsub("m1c-sr","Doctors Diagnosis & Rash",n)
 n<-gsub("m1c-hr","Hanifin-Rajka",n)
